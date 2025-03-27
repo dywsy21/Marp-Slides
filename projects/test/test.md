@@ -1,7 +1,7 @@
 ---
 marp: true
 size: 16:9
-theme: am_orange
+theme: am_blue
 paginate: true
 headingDivider: 2
 footer: \ *Natural Language Processing* *Word2Vec Experiment* *2024*
