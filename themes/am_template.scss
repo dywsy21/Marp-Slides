@@ -569,7 +569,7 @@ section.toc_a header {
   width: 150%;
   font-family: 'Fira Code';
   font-weight: bolder;
-  font-size: 1080%;
+  font-size: 1030%;
   left: -8px;
   text-align: center;
   display: flex;
@@ -1548,6 +1548,11 @@ table > tfoot > tr > td {
 
 section.fixedtitleA {
   justify-content: start;
+  grid-template-rows: 10% 90%;
+  display: grid;
+  grid-template-areas: 
+  "slideheading"
+  "content";
 }
 section.fixedtitleB {
   justify-content: start;
